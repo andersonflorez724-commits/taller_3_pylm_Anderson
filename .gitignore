@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.env
+
+# Datos y modelos entrenados
+data/
+models/
+Modelos_ML/*/data/
+Modelos_ML/*/models/*.pkl
+Modelos_ML/*/models/*.joblib
+*.joblib
+*.pkl
+
+# Jupyter / notebooks intermedios (opcional)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+tmp/
+temp/
