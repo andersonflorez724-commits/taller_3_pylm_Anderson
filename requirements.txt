@@ -4,3 +4,5 @@ scikit-learn
 joblib
 pydantic
 numpy
+django>=4.2
+requests>=2.31.0
