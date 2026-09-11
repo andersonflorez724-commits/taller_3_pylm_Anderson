@@ -33,5 +33,5 @@ def predict_price(data: housem2):
     
     return {
         "area_m2": data.area_m2,
-        "predicted_price": round(prediction, 2)
+        "predicted_price": round(float(prediction[0]), 2)
     }           
