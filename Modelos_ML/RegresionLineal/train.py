@@ -41,4 +41,6 @@ plt.grid(True)
 plt.show()
 
 #guardar el modelo entrenado en un archivo
+import os
+os.makedirs('models', exist_ok=True)
 joblib.dump(model, 'models/linear_model.joblib')
