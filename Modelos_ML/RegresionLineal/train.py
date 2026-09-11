@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('Agg')
 import joblib
 import numpy as np
 import matplotlib.pyplot as plt
@@ -39,4 +41,4 @@ plt.grid(True)
 plt.show()
 
 #guardar el modelo entrenado en un archivo
-joblib.dump(model, 'Modelos_ML/RegresionLineal/models/linear_model.joblib')
+joblib.dump(model, 'models/linear_model.joblib')
