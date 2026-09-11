@@ -4,5 +4,6 @@ scikit-learn
 joblib
 pydantic
 numpy
+matplotlib
 django>=4.2
 requests>=2.31.0
