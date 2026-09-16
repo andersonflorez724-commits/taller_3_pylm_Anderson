@@ -7,21 +7,20 @@ from sklearn.linear_model import LinearRegression
 
 #predecir precios de viviendas segun la superficie en M2
 
-#datos de entrenamiento (x) y etiquetas (y)
+#datos de entrenamiento con relacion lineal consistente:
+#precio = 2000 * m2 + 30000
+x = np.array([[30], [40], [50], [60], [70], [80], [85], [90], [100], [110], [120], [130], [140], [150], [160], [170], [180], [190], [200]])
 
-x = np.array([[40], [50], [60], [85], [100], [150]])
+y = np.array([90000, 110000, 130000, 150000, 170000, 190000, 200000, 210000, 230000, 250000, 270000, 290000, 310000, 330000, 350000, 370000, 390000, 410000, 430000])
 
-y = np.array([100000, 120000, 150000, 200000, 250000, 300000]) 
-
-#entrenar el modelo de regresion lineal
-
+#entrenar el modelo de regresion lineal con mas datos
 model = LinearRegression()
 model.fit(x, y)
 
 #predicciones de prueba
 y_pred = model.predict(x)
 
-#imprimir la informacion del modelo entrenado
+#print la informacion del modelo entrenado
 print("Coeficiente de regression: ", model.coef_[0])
 print("Termino independiente: ", model.intercept_)
 
