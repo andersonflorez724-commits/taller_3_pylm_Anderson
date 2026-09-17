@@ -51,6 +51,14 @@ Abre una interfaz con pestañas (signos vitales, factores de riesgo, síntomas) 
 
 > 💡 Dentro de la app hay una **tabla de ayuda** con los síntomas típicos de cada enfermedad para probar el modelo.
 
+## 🌐 Despliegues
+
+| # | Proyecto | Enlace |
+|---|----------|--------|
+| 1 | **RandomForest** - Diagnóstico clínico con Streamlit | [https://taller3pylmanderson-hewfxtg3scf9c8pmgataz8.streamlit.app/](https://taller3pylmanderson-hewfxtg3scf9c8pmgataz8.streamlit.app/) |
+| 2 | **Estimación de precios** por metro cuadrado (Django) | [https://frontend-django-production-0818.up.railway.app/](https://frontend-django-production-0818.up.railway.app/) |
+| 3 | **Procesamiento de imágenes** con OpenCV (Vercel) | [https://taller-3-pylm-anderson.vercel.app/](https://taller-3-pylm-anderson.vercel.app/) |
+
 ## ⚠️ Aviso
 
 Herramienta educativa de apoyo al diagnóstico. **No sustituye** la evaluación de un profesional médico.
