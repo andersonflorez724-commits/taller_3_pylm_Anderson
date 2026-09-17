@@ -4,6 +4,9 @@ scikit-learn
 joblib
 pydantic
 numpy
+pandas
 matplotlib
 django>=4.2
 requests>=2.31.0
+streamlit
+plotly
